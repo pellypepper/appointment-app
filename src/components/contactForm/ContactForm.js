@@ -41,7 +41,7 @@ export const ContactForm = ({
             id="phone"
             onChange={(e) => setPhone(e.target.value)}
             type="tel"
-            placeholder="123-456-7890"
+            placeholder="10 digits maximum"
             pattern="[1-9][0-9]{2}[1-9][0-9]{2}[0-9]{4}"
             value={phone}
             required // Makes this field mandatory
