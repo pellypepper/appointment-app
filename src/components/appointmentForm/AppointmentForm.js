@@ -39,7 +39,7 @@ export const AppointmentForm = ({
       </div>
       <div  style={{display: 'flex', flexDirection:"column"}}>
         <label htmlFor="appointment-date">Date:</label>
-        <input
+        <input style={{width:"100%"}}
           id="appointment-date"
           onChange={(e) => setDate(e.target.value)}
           type="date"
@@ -48,9 +48,9 @@ export const AppointmentForm = ({
           required
         />
       </div>
-      <div style={{display: 'flex', flexDirection:"column"}}>
+      <div style={{display: 'flex', flexDirection:"column", width:"100%"}}>
         <label htmlFor="appointment-time">Time:</label>
-        <input
+        <input style={{width:"100%"}}
           id="appointment-time"
           onChange={(e) => setTime(e.target.value)}
           type="time"
