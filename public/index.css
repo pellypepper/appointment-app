@@ -1,0 +1,126 @@
+#root {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+nav div > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #03a8d8;
+  margin-right: 30.5px;
+  text-decoration-line: none;
+}
+
+nav div > a.active {
+  text-decoration-line: underline;
+  text-decoration-color:#03a8d8;
+}
+
+nav {
+
+  border-bottom: 1px solid #979797;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  border: 2px solid rgb(34, 34, 47);
+  padding: 15px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #03a8d8;
+  margin: 0;
+  margin-bottom: 1rem;
+  animation: fadeIn 2s ease-in-out; /* No need for 'linear' here */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start invisible */
+    transform: scale(0); /* Start scaled down */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: scale(1); /* Original size */
+  }
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+section {
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #979797;
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+input{
+
+}
+
+input,
+select {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 7px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.tile {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.tile.tile-title {
+  font-weight: bold;
+}
+
+.tile-container {
+  margin-bottom: 20px;
+}
+button{
+  background: #03a8d8;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+button:hover, button:focus{
+  background-color: #000000;
+}
+.label-contact{
+  margin-top: 1rem;
+}
