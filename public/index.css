@@ -27,6 +27,7 @@ nav {
   align-items: center;
 }
 nav h1 {
+  text-align: center;
   border: 2px solid rgb(34, 34, 47);
   padding: 15px;
   border-radius: 50%;
